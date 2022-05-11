@@ -1,0 +1,199 @@
+body{
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.razdel {
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+    width: 80%;
+    margin-right: auto;
+    margin-left: auto;
+    height: 557.64px;
+}
+
+.dib {
+    font-size: 30px;
+    /* color: blue; */
+    margin: 10px 10px 10px 10px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    flex-direction: column;
+    font-size: 24px;
+    /* background-size: contain; */
+}
+
+.foto{
+    margin: 10px 10px 10px 10px;
+    background-image: url(katya.jpg);
+    height: 553.643px;
+    width: 50%;
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.line {
+    max-width: 50px;
+    width: 100px;
+    height: 3px;
+    background-color: #666;
+    display: block;
+    margin-top: 28px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.produkt {
+    /* justify-content: center;
+    align-items: center; */
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+    font-size: 34px;
+    width: 150px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+/* .forms {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: arial;
+    color: #127e3f;
+    display: inline-block;
+    position: relative;
+    padding: 8px 20px 8px 20px;
+    border: 0px;
+    background-color: rgba(0, 0, 0, 0);
+    cursor: pointer;
+} */
+
+.nass {
+    background-color: #9DA250;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #ffffff;
+    font-size: 28px;
+    margin-bottom: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    /* margin: 0 108px 0 108px; */
+}
+
+.obvodka {
+    border: 1px solid;
+    border-color: #666;
+    padding: 6px;
+    height: auto;
+    width: 55%;
+    margin: auto;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.block1 {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border: 1px solid;
+    border-color: #666;
+    /* padding: 20px 0; */
+    height: auto;
+    padding: 30px 30px;
+}
+
+.nastav {
+    padding: 15px 0px 15px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: white;
+    font-size: 16px;
+    font-weight: 700;
+    width: auto;
+    height: auto;
+    margin: auto;
+    
+}
+
+.buttom {
+    padding: 19.6px 15px;
+    border: 1px solid;
+    border-color: #9da250;
+    color: #9da250;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: auto;
+    width: auto;
+
+}
+
+@media screen and (max-width: 600px){
+    .razdel {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .foto {
+        width: 100%;
+        margin: 0;
+    }
+
+    .dib {
+        width: 100%;
+        margin: 0;
+    }
+
+    .obvodka {
+        width: 85%;
+    }
+
+    .block1 {
+        padding: 15px;
+    }
+}
+
+/* @media screen  {
+    .razdel {
+        flex-direction: column;
+    }
+} */
+
+/* .centr {
+    margin-top: 22px;
+    margin-bottom: 22px;
+} */
+
+
+/* a:hover {
+    text-decoration: underline;
+} */
+
+
+
+
+.forms {
+    -webkit-mask-image: linear-gradient(-75deg, rgba(0, 0, 0, .6) 30%, #000 50%, rgba(0, 0, 0, .6) 70%);
+    -webkit-mask-size: 200%;
+    animation: wave 5s infinite;
+}
+@-webkit-keyframes wave {
+    from {
+      -webkit-mask-position: 150%;
+    }
+    to {
+      -webkit-mask-position: -50%;
+    }
+}
+/* https://html5book.ru/gradient-dlya-teksta/  работа с текстом */
